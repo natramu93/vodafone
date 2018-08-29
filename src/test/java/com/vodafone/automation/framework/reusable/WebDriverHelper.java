@@ -37,22 +37,22 @@ public static void initialize(String browser) throws FileNotFoundException, IOEx
 	switch(browser)
 	{
 	case "gc":
-		/*System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-		driver = new ChromeDriver();*/
-		cap = DesiredCapabilities.chrome();
-		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
+		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+		driver = new ChromeDriver();
+		/*cap = DesiredCapabilities.chrome();
+		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);*/
 		break;
 	case "ff":
-		/*System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
-		driver = new FirefoxDriver();*/
-		cap = DesiredCapabilities.firefox();
-		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
+		System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
+		driver = new FirefoxDriver();
+		/*cap = DesiredCapabilities.firefox();
+		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);*/
 		break;
 	case "ie":
-		/*System.setProperty("webdriver.ie.driver", "drivers/IEDriverServer.exe");
-		driver = new InternetExplorerDriver();*/
-		cap = DesiredCapabilities.internetExplorer();
-		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
+		System.setProperty("webdriver.ie.driver", "drivers/IEDriverServer.exe");
+		driver = new InternetExplorerDriver();
+		/*cap = DesiredCapabilities.internetExplorer();
+		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);*/
 		break;
 		default:
 			System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+    <line>
+      <![CDATA[STEP5]]>
+    </line>
+    <line>
+      <![CDATA[STEP6]]>
+    </line>
+    <line>
+      <![CDATA[STEP7]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22917" started-at="2018-08-29T09:34:22Z" finished-at="2018-08-29T09:34:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22917" started-at="2018-08-29T09:34:22Z" finished-at="2018-08-29T09:34:45Z">
+      <class name="com.vodafone.automation.framework.test.TestSuite1">
+        <test-method status="PASS" signature="bs()[pri:0, instance:com.vodafone.automation.framework.test.TestSuite1@26653222]" name="bs" is-config="true" duration-ms="31027" started-at="2018-08-29T09:33:51Z" finished-at="2018-08-29T09:34:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method status="PASS" signature="register()[pri:0, instance:com.vodafone.automation.framework.test.TestSuite1@26653222]" name="register" duration-ms="22888" started-at="2018-08-29T09:34:22Z" finished-at="2018-08-29T09:34:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+            <line>
+              <![CDATA[STEP5]]>
+            </line>
+            <line>
+              <![CDATA[STEP6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="as()[pri:0, instance:com.vodafone.automation.framework.test.TestSuite1@26653222]" name="as" is-config="true" duration-ms="1454" started-at="2018-08-29T09:34:45Z" finished-at="2018-08-29T09:34:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- com.vodafone.automation.framework.test.TestSuite1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
